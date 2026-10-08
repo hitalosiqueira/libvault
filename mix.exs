@@ -31,7 +31,7 @@ defmodule Vault.MixProject do
     [
       # http clients
       {:ibrowse, "~> 4.5.0", optional: true},
-      {:hackney, "~> 4.0.1", optional: true},
+      {:hackney, "~> 4.0", optional: true},
       {:castore, "~> 1.0.21", optional: true},
       {:mint, "~> 1.11.0", optional: true},
       {:tesla, "~> 1.21.3", optional: true},
